@@ -13,7 +13,7 @@ from gmaps_crawler.drivers import create_driver
 from gmaps_crawler.entities import Place
 from gmaps_crawler.storages import get_storage
 
-BASE_URL = "https://www.google.com/maps/search/{search}/@-23.9617279,-46.3392223,14z/data=!3m1!4b1?hl=en"
+BASE_URL = "https://www.google.com/maps/search/{search}construction+companies/@33.8431124,-117.8782953,13z?entry=ttu"
 SEARCH = "restaurantes+em+Santos"
 FINAL_URL = BASE_URL.format(search=SEARCH)
 
